@@ -1,3 +1,71 @@
+## Estructura de carpetas y ficheros
+
+```
+📂 GATO
+|
+>---📄 .htaccess
+|
+----📂 web
+    |
+    >---📄 .htaccess
+    |
+    >---📂 app
+    |   |
+    |   >---📂 control
+    |   |   |
+    |   |   >---📄 Home.php
+    |   |   |
+    |   |   ----📄 E404.php
+    |   |
+    |   >---📂 frame
+    |   |   |
+    |   |   >---📄 base.phtml
+    |   |   |
+    |   |   >---📄 e404.phtml
+    |   |   |
+    |   |   >---📂 part
+    |   |       |
+    |   |       >---📄 start_html.phtml
+    |   |       |
+    |   |       ----📄 end_html.phtml
+    |   |
+    |   ----📂 page
+    |       |
+    |       >---📂 home
+    |       |   |
+    |       |   ----📄 index.phtml
+    |       |
+    |       ----📂 e404
+    |           |
+    |           ----📄 e404.phtml
+    |
+    >---📂 gato
+    |
+    >---📄 Gato.php
+    |
+    >---📄 ControlBase.php
+    |
+    >---📄 Display.php
+    |
+    >---📄 RegistryLog.php
+    |   |
+    |   >---📂 lib
+    |   |
+    |   ----📂 log
+    |
+    -----📂 public
+        |
+        >---📂 css
+        |
+        >---📂 js
+        |
+        >---📂 img
+        |
+        >---📂 icon 
+        |
+        ----📄 favicon.ico
+```
+
 <!--## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/file-name/gato/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

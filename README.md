@@ -1,7 +1,7 @@
 ## Estructura de carpetas y ficheros
 
 ```
-📂 GATO
+📂 /
 |
 >---📄 .htaccess
 |
@@ -40,20 +40,20 @@
     |           ----📄 e404.phtml
     |
     >---📂 gato
-    |
-    >---📄 Gato.php
-    |
-    >---📄 ControlBase.php
-    |
-    >---📄 Display.php
-    |
-    >---📄 RegistryLog.php
+    |   |
+    |   >---📄 Gato.php
+    |   |
+    |   >---📄 ControlBase.php
+    |   |
+    |   >---📄 Display.php
+    |   |
+    |   >---📄 RegistryLog.php
     |   |
     |   >---📂 lib
     |   |
     |   ----📂 log
     |
-    -----📂 public
+    ----📂 public
         |
         >---📂 css
         |

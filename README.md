@@ -11,31 +11,31 @@
     |
     >---📂 app
     |   |
-    |   >---📂 control
+    |   >---📂 controles
     |   |   |
     |   |   >---📄 Home.php
     |   |   |
     |   |   ----📄 E404.php
     |   |
-    |   >---📂 frame
+    |   >---📂 marcos
     |   |   |
     |   |   >---📄 base.phtml
     |   |   |
     |   |   >---📄 e404.phtml
     |   |   |
-    |   |   >---📂 part
+    |   |   >---📂 partes
     |   |       |
     |   |       >---📄 start_html.phtml
     |   |       |
     |   |       ----📄 end_html.phtml
     |   |
-    |   ----📂 page
+    |   ----📂 paginas
     |       |
-    |       >---📂 home
+    |       >---📂 Home
     |       |   |
     |       |   ----📄 index.phtml
     |       |
-    |       ----📂 e404
+    |       ----📂 E404
     |           |
     |           ----📄 e404.phtml
     |
@@ -45,9 +45,9 @@
     |   |
     |   >---📄 ControlBase.php
     |   |
-    |   >---📄 Display.php
+    |   >---📄 Mostrar.php
     |   |
-    |   >---📄 RegistryLog.php
+    |   >---📄 RegistroLog.php
     |   |
     |   >---📂 lib
     |   |
@@ -61,7 +61,7 @@
         |
         >---📂 img
         |
-        >---📂 icon 
+        >---📂 ico 
         |
         ----📄 favicon.ico
 ```

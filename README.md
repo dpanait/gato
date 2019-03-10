@@ -61,9 +61,15 @@
         |
         >---📂 img
         |
-        >---📂 ico 
+        >---📂 icon
         |
-        ----📄 favicon.ico
+        >---📄 .htaccess
+        |
+        >---📄 favicon-16x16.png
+        |
+        >---📄 favicon.ico
+        |
+        ----📄 index.php
 ```
 
 <!--## Welcome to GitHub Pages

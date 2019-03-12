@@ -1,30 +1,29 @@
 <?php
 
 class ControlBase {
-  
+
   protected $title = "";
   protected $description = "";
   protected $keywords = "";
-  protected $device = "";  
-  
-  public function  __construct ( ) {
-	  
+  protected $device = "";
+
+  public function __construct(){
   }
-  
-  public function getTitle ( ) {
+
+  public function get_title(){
     return $this->title;
   }
-  
-  public function getDescription ( ) {
+
+  public function get_description(){
     return $this->description;
   }
-  
-  public function getKeywords ( ) {
+
+  public function get_keywords(){
     return $this->keywords;
   }
-  
-  public function getDevice ( ) {
+
+  public function get_device(){
     return $this->device;
   }
-  
+
 }

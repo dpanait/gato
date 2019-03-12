@@ -2,16 +2,14 @@
 
 class Home extends ControlBase {
 
-	function  __construct () {
-		parent::__construct();
-	}
+  function __construct () {
+    parent::__construct();
+  }
 
-	public function index () {
-		
-		$this->title = "gato";
-		$this->description = "gato";
-		$this->keywords = "gato";
-
-	}
+  public function index () {
+    $this->title = "gato";
+    $this->description = "gato";
+    $this->keywords = "gato";
+  }
 
 }

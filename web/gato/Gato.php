@@ -24,6 +24,14 @@ class Gato {
     define( 'RUTA_PUBLIC', dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . "public" . DIRECTORY_SEPARATOR );
     define( 'RUTA_LIB', RUTA_GATO . "lib" . DIRECTORY_SEPARATOR );
     spl_autoload_register([__CLASS__,'_autocarga_de_clases']);
+    define( 'RUTA_VENDOR', RUTA_APP .'vendor' . DIRECTORY_SEPARATOR);
+    spl_autoload_register([__CLASS__,'_autocarga_de_clases']);
+    define( 'RUTA_CONFIG', RUTA_APP.'config' .DIRECTORY_SEPARATOR);
+    $composer = RUTA_VENDOR . DIRECTORY_SEPARATOR . "autoload.php";
+
+    if ( is_file($composer) ) {
+        require_once($composer);
+    }   
     
   }
 

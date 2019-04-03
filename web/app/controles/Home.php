@@ -10,7 +10,7 @@ class Home extends ControlBase {
     $this->title = "gato";
     $this->description = "gato";
     $this->keywords = "gato";
-    echo RUTA_GATO;
+    var_dump($this->db);
   }
 
 }

@@ -1,0 +1,51 @@
+[
+    {
+        "name": "clancats/hydrahon",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ClanCats/Hydrahon.git",
+            "reference": "e2790279bfdb1faa9155504267db1f57d4dabe00"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ClanCats/Hydrahon/zipball/e2790279bfdb1faa9155504267db1f57d4dabe00",
+            "reference": "e2790279bfdb1faa9155504267db1f57d4dabe00",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2019-02-25T09:04:39+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "ClanCats\\Hydrahon\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mario Döring",
+                "role": "Developer"
+            }
+        ],
+        "description": "Fast and simple Query Builder without extra bacon, written in PHP.",
+        "homepage": "https://github.com/ClanCats/Hydrahon",
+        "keywords": [
+            "builder",
+            "database",
+            "mysql",
+            "query",
+            "sqlite"
+        ]
+    }
+]
